@@ -51,6 +51,7 @@ int main() {
 		}
 		lcm *= (gcd*a*b*c);
 		printf("L.C.M = %d\n", lcm);
+		printf("\nIs the product of three numbers equal to the product of G.C.D and L.C.M of three numbers?");
 		if (pd == (gcd * lcm)) printf("\nAnswer: Absolutely Yes\n");
 		else if(pd != (gcd * lcm)) printf("\nAnswer: Maybe No\n");
 	}
